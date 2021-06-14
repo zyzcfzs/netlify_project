@@ -1,0 +1,383 @@
+/* !动画特效样式表 */
+/* 导航条 */
+@-webkit-keyframes margintop-80 {
+  from {
+    margin-top: -80px;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+
+@keyframes margintop-80 {
+  from {
+    margin-top: -80px;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+
+.margintop-80 {
+  animation: margintop-80 2s ease-in-out;
+  -webkit-animation: margintop-80 2s ease-in-out;
+}
+
+.new-nav {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#navi .new-color {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+#navi .newcolorspec {
+  color: rgb(0, 0, 0);
+}
+
+/* 侧边栏淡出淡入动画*/
+.sidebarin {
+  opacity: 1;
+}
+
+.sidebarout {
+  opacity: 0;
+}
+
+/* 第一屏动画 */
+@-webkit-keyframes first-page {
+  from {
+    opacity: 0;
+    margin-top: 40px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes first-page {
+  from {
+    opacity: 0;
+    margin-top: 40px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.first-page {
+  animation: first-page 1s ease-in-out;
+  -webkit-animation: first-page 1s ease-in-out;
+}
+
+/* 第一屏副标题动画 */
+.first-page-delay {
+  animation: first-page 3s ease-in-out;
+  -webkit-animation: first-page 3s ease-in-out;
+}
+
+/* 第二屏动画 */
+@-webkit-keyframes rocket {
+  0% {
+    bottom: -150px;
+  }
+
+  60% {
+    bottom: 120px;
+  }
+
+  80% {
+    bottom: 80px;
+  }
+
+  100% {
+    bottom: 100px;
+  }
+}
+
+@keyframes rocket {
+  0% {
+    bottom: -150px;
+  }
+
+  60% {
+    bottom: 120px;
+  }
+
+  80% {
+    bottom: 80px;
+  }
+
+  100% {
+    bottom: 100px;
+  }
+}
+
+@-webkit-keyframes secondscreen {
+  from {
+    margin-top: 50px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes secondscreen {
+  from {
+    margin-top: 50px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.secondscreen {
+  animation: secondscreen 2s ease-in-out;
+  -webkit-animation: secondscreen 2s ease-in-out;
+}
+
+/* 火箭图片特效 */
+.rocket {
+  animation: rocket 0.5s;
+  -webkit-animation: rocket 0.5s;
+}
+
+/* 第三屏 */
+@-webkit-keyframes thirdlistitem {
+
+  0%,
+  80% {
+    top: 0px;
+  }
+
+  50% {
+    top: -40px;
+  }
+}
+
+@keyframes thirdlistitem {
+
+  0%,
+  80% {
+    top: 0px;
+  }
+
+  50% {
+    top: -40px;
+  }
+}
+
+@-webkit-keyframes thirdlistitem2 {
+  from {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+@keyframes thirdlistitem2 {
+  from {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+@-webkit-keyframes thirdcontent {
+  from {
+    opacity: 0;
+    top: 80px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes thirdcontent {
+  from {
+    opacity: 0;
+    top: 80px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.thirdcontent1 {
+  animation: thirdcontent 1s ease-in-out;
+  -webkit-animation: thirdcontent 1s ease-in-out;
+}
+
+.thirdcontent2 {
+  animation: 1.5s thirdcontent ease-in-out;
+  -webkit-animation: 1.5s thirdcontent ease-in-out;
+}
+
+.thirdcontent3 {
+  animation: 2s thirdcontent ease-in-out;
+  -webkit-animation: 2s thirdcontent ease-in-out;
+}
+/* 呼吸灯动画 */
+.thirdlistitem {
+  animation: thirdlistitem 1s ease-in-out;
+  -webkit-animation: thirdlistitem 1s ease-in-out;
+}
+
+/* 呼吸灯放大特效 */
+.thirdlistitem2 {
+  animation: thirdlistitem2 0.5s ease-in-out alternate infinite;
+  -webkit-animation: thirdlistitem2 0.5s ease-in-out alternate infinite;
+}
+
+/* 第四屏动画 */
+@-webkit-keyframes fourthscreen {
+  from {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+@keyframes fourthscreen {
+  from {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+
+.fourthscreen {
+  animation: fourthscreen 1s ease-in-out;
+  -webkit-animation: fourthscreen 1s ease-in-out;
+}
+
+/* 第五屏动画 */
+@-webkit-keyframes fifthscreentitle {
+  from {
+    opacity: 0;
+    margin-top: 120px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 50px;
+  }
+}
+
+@keyframes fifthscreentitle {
+  from {
+    opacity: 0;
+    margin-top: 120px;
+  }
+
+  to {
+    opacity: 1;
+    margin-top: 50px;
+  }
+}
+
+@-webkit-keyframes fifthscreencontent {
+  from {
+    opacity: 0;
+    top: 50px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes fifthscreencontent {
+  from {
+    opacity: 0;
+    top: 40px;
+  }
+
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.fifthscreentitle {
+  animation: fifthscreentitle 1s ease-in-out;
+  -webkit-animation: fifthscreentitle 1s ease-in-out;
+}
+
+.fifthscreencontent {
+  animation: fifthscreencontent 1s ease-in-out;
+  -webkit-animation: fifthscreencontent 1s ease-in-out;
+}
